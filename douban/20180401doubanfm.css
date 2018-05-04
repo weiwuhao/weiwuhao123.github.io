@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{text-decoration: none;}
+
+#bd{
+    width: 100%;
+    height: 100%;
+    min-height: 540px;
+    background: #fff;
+}
+.main{
+    width: 860px;
+    height: 722px;
+    margin-top: -361px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -430px;
+    text-align: center;
+    background: #fdfdfd;
+    border: 1px solid #f1f1f1;
+    z-index: 10;
+}
+.left{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url("FMimgs/1.jpg");
+    background-size: contain;
+    opacity: 0.03;
+    margin-top: 200px;
+    margin-left: 30px;
+    float: left;
+}
+.blur {
+    -webkit-filter: blur(10px); /* Chrome, Opera */
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+.right{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url("FMimgs/5.jpg");
+    background-size: contain;
+    opacity: 0.03;
+    margin-top: 200px;
+    margin-right: 30px;
+    float: right;
+}
+.head{
+    text-align: right;
+    margin: 28px 25px 38px 0;
+}
+.login{font-size: 13px;color: #2f9842;}
+
+h1{
+    line-height: 36px;
+    font-size: 28px;
+    color: #4a4a4a;
+    margin-bottom: 13px;
+    font-weight: 300;
+}
+.song{
+    width: 100%;
+    padding: 0 80px;
+}
+.song-list{
+    width: 100px;
+    text-align: center;
+    margin: 20px;
+    float: left;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.button{
+    height: 24px;
+    line-height: 24px;
+    border-radius: 2px;
+    border: 1px solid rgba(255,44,86,.3);
+    padding: 0 10px;
+    font-size: 12px;
+    color: #ff2c56;
+    cursor: pointer;
+    display: inline-block;
+}
+.song-list p{margin: 10px 0;font-size: 14px;}
+
+.change{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.change a{height: 18px;line-height: 18px;font-size: 13px;color: #62646c;}
+.people{width:32%;height: 50px;margin: 20px auto;}
+.pic{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-image: url("FMimgs/person_small.png");
+    background-size: contain;
+    margin: 5px;
+    border: 1px solid rgb(225, 225, 225);
+    float: left;
+}
+.end{width: 100%;text-align: center;margin-top: 20px;}
+.end a:link{color: grey;}

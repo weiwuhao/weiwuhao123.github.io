@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet"href="20180325movie.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a{text-decoration: none}
+    </style>
+</head>
+<body>
+<!--导航栏-->
+<div id="topnav">
+    <div class="topnav-left">
+        <ul>
+            <li>豆瓣</li>
+            <li>读书</li>
+            <li>电影</li>
+            <li>音乐</li>
+            <li>同城</li>
+            <li>小组</li>
+            <li>阅读</li>
+            <li>F&nbspM</li>
+            <li>时间</li>
+            <li>市集</li>
+            <li>更多</li>
+        </ul>
+    </div>
+    <div class="topnav-right">
+        <div class="nav-doubanapp">下载豆瓣客户端</div>
+        <div class="nav-login">登录</div>
+        <div class="nav-login">注册</div>
+    </div>
+</div>
+
+<div id="movie-nav">
+    <div class="nav-primary">
+        <div class="movie-logo">
+            <a href="#"><img src="movieimg/movie-logo.png"></a>
+        </div>
+        <input type="search"placeholder="搜索电影、电视剧、综艺、影人">
+        <a href="#"><div class="movie-search"></div></a>
+    </div>
+    <div class="nav-list">
+        <ul>
+            <li><a href="#">影讯&购票</a></li>
+            <li><a href="#">选电影</a></li>
+            <li><a href="#">电视剧</a></li>
+            <li><a href="#">排行榜</a></li>
+            <li><a href="#">分类</a></li>
+            <li><a href="#">影评</a></li>
+            <li><a href="#">2017年度榜单</a></li>
+            <li><a href="#">2017观影报告</a></li>
+        </ul>
+    </div>
+    <div id="wrap">
+        <div class="left-side">
+            <div class="mod">
+                <div class="page-choose1">
+                    <h4>正在热映</h4>
+                    <a href="#">全部正在热映»</a>
+                    <a href="#">即将上映»</a>
+                    <a href="#"><div class="page-change ">&gt;</div></a>
+                    <a href="#"><div class="page-change  page_change">&lt;</div></a>
+                    <span>1/4</span>
+                </div>
+                <div class="movie-list1">
+                    <div class="movie">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span class="movie-name">古墓丽影：源起...</span>
+                        <div class="movie-rating">
+                            <div class="allstar50 allstar35"></div>
+                            <i>6.5</i>
+                        </div>
+                        <div class="movie-button">选座购票</div>
+                    </div>
+                    <div class="movie">
+                        <img src="images/movie2.webp.jpg"class="movie-img"><br>
+                        <span class="movie-name">水形物语</span>
+                        <div class="movie-rating">
+                            <div class="allstar50 allstar40"></div>
+                            <i>7.3</i>
+                        </div>
+                        <div class="movie-button">选座购票</div>
+                    </div>
+                    <div class="movie">
+                        <img src="images/movie3.webp.jpg"class="movie-img"><br>
+                        <span class="movie-name">黑豹</span>
+                        <div class="movie-rating">
+                            <div class="allstar50 allstar35"></div>
+                            <i>6.7</i>
+                        </div>
+                        <div class="movie-button">选座购票</div>
+                    </div>
+                    <div class="movie">
+                        <img src="images/movie4.webp.jpg"class="movie-img"><br>
+                        <span class="movie-name">红海行动</span>
+                        <div class="movie-rating">
+                            <div class="allstar50 allstar45"></div>
+                            <i>8.4</i>
+                        </div>
+                        <div class="movie-button">选座购票</div>
+                    </div>
+                    <div class="movie">
+                        <img src="images/movie5.webp.jpg"class="movie-img"><br>
+                        <span class="movie-name">小萝莉的猴神大...</span>
+                        <div class="movie-rating">
+                            <div class="allstar50 allstar45"></div>
+                            <i>8.6</i>
+                        </div>
+                        <div class="movie-button">选座购票</div>
+                    </div>
+                    <div class="movie">
+                        <img src="images/movie6.webp.jpg"class="movie-img"><br>
+                        <span class="movie-name">厉害了，我的国..</span>
+                        <div class="movie-rating">
+                            暂无评分
+                        </div>
+                        <div class="movie-button">选座购票</div>
+                    </div>
+                    <div class="movie">
+                        <img src="images/movie7.webp.jpg"class="movie-img"><br>
+                        <span class="movie-name">唐人街探案2</span>
+                        <div class="movie-rating">
+                            <div class="allstar50 allstar35"></div>
+                            <i>7.0</i>
+                        </div>
+                        <div class="movie-button">选座购票</div>
+                    </div>
+                    <div class="movie">
+                        <img src="images/movie8.webp.jpg"class="movie-img"><br>
+                        <span class="movie-name">大坏狐狸的故事..</span>
+                        <div class="movie-rating">
+                            <div class="allstar50 allstar40"></div>
+                            <i>8.2</i>
+                        </div>
+                        <div class="movie-button">选座购票</div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="movieimg/left-ad1.jpg" class="ad">
+
+            <div class="mod">
+                <div class="page-choose2">
+                    <h4>最近热门电影</h4>
+                    <a href="#">热门</a>
+                    <a href="#">最新</a>
+                    <a href="#">豆瓣高分</a>
+                    <a href="#">冷门佳片</a>
+                    <a href="#">华语</a>
+                    <a href="#">欧美</a>
+                    <a href="#">韩国</a>
+                    <a href="#">日本</a>
+                    <span><a href="#">更多</a></span>
+                </div>
+                <div class="movie-list2">
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                </div>
+                <div class="page">
+                    <a href="#"><div class="page-change2">&lt;</div></a>
+                    <a href="#"><div class="page-s2"></div></a>
+                    <a href="#"><div class="page-s2"></div></a>
+                    <a href="#"><div class="page-s2"></div></a>
+                    <a href="#"><div class="page-s2"></div></a>
+                    <a href="#"><div class="page-s2"></div></a>
+                    <a href="#"><div class="page-s2"></div></a>
+                    <a href="#"><div class="page-change2 ">&gt;</div></a>
+                </div>
+            </div>
+
+            <div class="mod">
+                <div class="page-choose2">
+                    <h4>最近热门电视剧</h4>
+                    <a href="#">热门</a>
+                    <a href="#">国产剧</a>
+                    <a href="#">综艺</a>
+                    <a href="#">美剧</a>
+                    <a href="#">日剧</a>
+                    <a href="#">韩剧</a>
+                    <a href="#">日本动画</a>
+                    <a href="#">记录片</a>
+                    <span><a href="#">更多</a></span>
+                </div>
+                <div class="movie-list2">
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                    <div class="movie2">
+                        <img src="images/movie1.webp.jpg"class="movie-img"><br>
+                        <span><a href="#">相爱相亲</a></span>
+                        <i>6.5</i>
+                    </div>
+                </div>
+                <div class="page">
+                    <a href="#"><div class="page-change2">&lt;</div></a>
+                    <a href="#"><div class="page-s2"></div></a>
+                    <a href="#"><div class="page-s2"></div></a>
+                    <a href="#"><div class="page-s2"></div></a>
+                    <a href="#"><div class="page-s2"></div></a>
+                    <a href="#"><div class="page-s2"></div></a>
+                    <a href="#"><div class="page-s2"></div></a>
+                    <a href="#"><div class="page-change2">&gt;</div></a>
+                </div>
+            </div>
+
+            <div class="mod clear">
+                <div class="page-choose1">
+                    <h4>热门推荐</h4>
+                    <a href="#"><div class="page-change">&gt;</div></a>
+                    <a href="#"><div class="page-change page_change">&lt;</div></a>
+                    <span>1/6</span>
+                </div>
+                <div class="box clear" style="" id="box_mar">
+                    <img src="movieimg/fuchouzhe.jpg" class="pic">
+                    <div class="text">
+                        <h3>《复仇者联盟3：无限战争》中字正式预告</h3>
+                        <p>星爵嘴炮钢铁侠，小蜘蛛和奇异博士自我介绍爆笑！十年布局，巅峰一役！求全员都在~</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mod">
+                <div class="page-choose1">
+                    <h4>最受欢迎的影评</h4>
+                    <a href="#">更多热门影评»</a>
+                    <a href="#">新片影评»</a>
+                </div>
+                <div class="conment">
+                    <img src="movieimg/cmt1.jpg" class="conment-pic">
+                    <div class="conment-text">
+                        <header><a href="#">爱的执念</a></header>
+                        <article><a href="#">梁慕橙</a>&nbsp;评论&nbsp;<a href="#">《妖猫传》</a><span class="allstar50 allstar30"></span></article>
+                        <footer>美术，布景，服化方面没的说，虽然我没深究过这些布置符不符合当时，但是在现在来说，能让观众赏<br>
+                            心悦目就行。片里的杨贵妃的美，不同于其他作品的美，美的舒适，美的怜爱，美的动心。 万万没想到<br>
+                            是昊然迪迪的执念...<a href="#">（全文）</a> </footer>
+                    </div>
+                </div>
+                <div class="conment">
+                    <img src="movieimg/cmt3.jpg" class="conment-pic">
+                    <div class="conment-text">
+                        <header><a href="#">小太阳林杨</a></header>
+                        <article><a href="#">爱你我的十八岁</a>&nbsp;评论&nbsp;<a href="#">《你好，旧时光》</a><span class="allstar50 allstar30"></span></article>
+                        <footer>世界上怎么可能有这么温暖这么阳光的男孩子啊 林杨绝对是我见过最美好的男生了 他会对你说:即使要<br>
+                            与全世界为敌，他也选择站在你这边，因为你就是他梦想中的一部分；他说他要把命运从你那夺走的幸<br>
+                            福全部还给你。 ..<a href="#">（全文）</a> </footer>
+                    </div>
+                </div>
+                <div class="conment">
+                    <img src="movieimg/cmt2.jpg" class="conment-pic">
+                    <div class="conment-text">
+                        <header><a href="#">是我长大了，还是世界改变了</a></header>
+                        <article><a href="#">浮生愿景</a>&nbsp;评论&nbsp;<a href="#">《男孩与世界》</a><span class="allstar50 allstar30"></span></article>
+                        <footer>全片几乎没有对白，却依旧构建了一个有趣而深刻的故事，配乐功不可没。这个世界的音符是彩色的，<br>
+                            是可以装进罐子里珍藏的美好事物，也是小男孩与世界和平共处的法宝。 以小男孩的角色贯穿一生，其<br>
+                            实是带着童真的自...<a href="#">（全文）</a> </footer>
+                    </div>
+                </div>
+                <div class="conment">
+                    <img src="movieimg/cmt4.jpg" class="conment-pic">
+                    <div class="conment-text">
+                        <header><a href="#">胡闹</a></header>
+                        <article><a href="#">李白</a>&nbsp;评论&nbsp;<a href="#">《恋爱先生》</a><span class="allstar50 allstar30"></span></article>
+                        <footer>废话太多，评一张嘴就左右别人的爱情人生，太不道德。都说宁拆十座庙不拆一桩婚。这样说说就决定<br>
+                            人的生活，不喜欢这样的人。你既不是救世主，也不是医生有什么权利说别人的事。周旋在几个女人之<br>
+                            间，没有担当。这...<a href="#">（全文）</a> </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="right-top">
+                <a href="#">豆瓣电影评分八问</a>
+            </div>
+            <img src="movieimg/right-ad1.jpg"class="right-ad">
+            <div class="right-top">
+                <p>电影活动  · · · · · · </p>
+                <a href="#">瓣嘴4丨刘烨揭秘娱乐圈巨头悬案 </a>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><span>本周口碑榜</span>&nbsp;&nbsp;&nbsp;<a href="#">更多榜单»</a></li>
+                    <li>1.&nbsp;<a href="#"> 	行走距离</a></li>
+                    <li>2.&nbsp;<a href="#"> 大坏狐狸的故事</a></li>
+                    <li>3.&nbsp;<a href="#"> 	湮灭</a></li>
+                    <li>4.&nbsp;<a href="#"> 	山田孝之3D</a></li>
+                    <li>5.&nbsp;<a href="#"> 	水形物语</a></li>
+                    <li>6.&nbsp;<a href="#"> 	难以忽视的真相2</a></li>
+                    <li>7.&nbsp;<a href="#"> 	最后的踢踏舞</a></li>
+                    <li>8.&nbsp;<a href="#"> 	囚禁</a></li>
+                    <li>9.&nbsp;<a href="#"> 	奇迹之味</a></li>
+                    <li>10.&nbsp;<a href="#">所有的不眠之夜</a></li>
+                </ul>
+            </div>
+            <img src="movieimg/right-ad2.png"class="right-ad">
+            <div class="list">
+                <ul>
+                    <li><span>热门豆列</span></li>
+                    <li>
+                        <a href="#"> 科幻是未来的钥匙——科幻启示录【科幻题<br>材】</a>
+                        <footer>710推荐</footer>
+                    </li>
+                    <li>
+                        <a href="#"> 艳尸刘德华（剧透，慎入）</a>
+                        <footer>710推荐</footer>
+                    </li>
+                    <li style="border: none"></li>
+                    <li><span>合作联系</span></li>
+                    <li>
+                        电影合作邮箱：movie@douban.com<br>
+                        电视剧合作邮箱：tv@douban.com
+                    </li>
+                    <li style="border: none"></li>
+                    <li><span>关注我们</span></li>
+                    <li id="app">
+                        <figure>
+                            <img src="movieimg/app1.png"class="app-logo">
+                            <figcaption><a href="#">微博</a></figcaption>
+                        </figure>
+                        <figure>
+                            <img src="movieimg/app2.png"class="app-logo">
+                            <figcaption><a href="#">微信</a></figcaption>
+                        </figure>
+                        <figure>
+                            <img src="movieimg/app3.jpg"class="app-logo">
+                            <figcaption><a href="#">瓣嘴</a></figcaption>
+                        </figure>
+                        <figure>
+                            <img src="movieimg/app4.jpg"class="app-logo">
+                            <figcaption><a href="#">鑫像奖小站</a></figcaption>
+                        </figure>
+                        <figure>
+                            <img src="movieimg/app5.jpg"class="app-logo">
+                            <figcaption><a href="#">观影club</a></figcaption>
+                        </figure>
+                    </li>
+                    <li id="ad-end">
+                        <img src="movieimg/ad-end.jpg" class="ad-img">
+                        <div class="ad-text">
+                            <a href="#">日本文豪圈的相爱相杀！</a>
+                            <p>豆瓣时间 </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+       <div class="footer auto clear">
+          <p>© 2005－2018 douban.com, all rights reserved 北京豆网科技有限公司</p>
+          <ul class="footer_list">
+              <li><a>关于豆瓣 </a></li>
+              <li><a>在豆瓣工作</a></li>
+              <li><a>联系我们</a></li>
+              <li><a>免责声明</a></li>
+              <li><a>帮助中心</a></li>
+              <li><a>移动应用</a></li>
+              <li class="footer_tright"><a>豆瓣广告</a></li>
+          </ul>
+      </div>
+  </div>
+
+</body>
+</div>
+
+</body>
+</html>

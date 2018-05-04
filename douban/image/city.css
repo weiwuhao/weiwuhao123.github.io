@@ -1,0 +1,353 @@
+.global_nav{
+    height: 28px;
+    color: #d5d5d5;
+    background: #545652;
+    width: 100%;
+}
+.top_nav_info{
+    display: inline-block;
+    margin:0 12px 0 0;
+    padding: 0 12px;
+    height: 28px;
+    color: #d5d5d5;
+    float: right;
+    font: 12px Helevetica,Arial,sans-serif;
+    line-height:28px;
+}
+
+ul{
+    list-style: none;
+}
+.top_nav_info ul li{
+    float: right;
+    margin-left: 20px;
+}
+.top_nav_list{
+    margin:0 12px 0 0;
+    padding: 0 12px;
+    height: 28px;
+    color: #d5d5d5;
+    float: left;
+    font: 12px Helevetica,Arial,sans-serif;
+    line-height:28px;
+}
+
+.top_nav_list ul li{
+    float: left;
+    margin-left: 22px;
+}
+
+.top_nav_info ul li:hover{
+    color: #fff;
+}
+
+.top_nav_list ul li:hover{
+    color: #FFFFFF;
+}
+
+.header{
+    position: relative;
+    box-shadow:0 1px 4px #e4e4e4;
+    height: 52px;
+    z-index: 3;
+}
+.header_list{
+     position: relative;
+     margin-left: 35px;
+     margin-right: 35px;
+
+
+ }
+.header_logo{
+    float: left;
+    background: url("../image/logo@2x.png") no-repeat;
+    background-size:cover;
+    width: 87px;
+    height: 20px;
+    margin-top: 16px;
+    background-position: 50%;
+}
+
+.header_user{
+    float: right;
+    width: 24px;
+    height:24px;
+    border-radius: 50%;
+    background: url("../image/user_large.jpg") no-repeat;
+    background-size: contain;
+    margin-top: 16px;
+    margin-right: 10px;
+
+}
+.header_text{
+    float: right;
+    line-height: 52px;
+    font-size:12px;
+    color: #9b9b9b;
+}
+.guanggao{
+
+    background: url("../image/file-1519640597-2.jpg") no-repeat;
+    width: 100%;
+    min-height: 30px;
+    height:550px;
+    position: relative;
+}
+.guang_left{
+    background:url("../image/icon-slides.png") no-repeat -84px 50%;
+    width: 41px;
+    height:69px;
+    position: absolute;
+    top:50%;
+}
+.guang_right{
+    background:url("../image/icon-slides.png") no-repeat -125px 50%;
+    width: 41px;
+    height:69px;
+    position: absolute;
+    top:50%;
+    right:0;
+}
+.guang_bottom{
+    position: absolute;
+    bottom: 0;
+    left:48%;
+}
+.guang_bottom ul li{
+    float: left;
+    padding: 5px;
+    color: #e3e3e3;
+}
+.sell{
+
+    background-color: #fff;
+    color: #5c5c5c;
+    width: 1000px;
+    margin:60px auto;
+
+}
+body{
+    background-color: #fbfbfb;
+}
+.sell_pic{
+    float: right;
+}
+.sell_info{
+    height: 300px;
+    padding-right: 40px;
+    padding-left: 30px;
+    padding-top: 70px;
+}
+h5{
+    display: inline-block;
+    width: 305px;
+    font-weight: normal;
+    font-size:29px;
+    color: #4a4a4a;
+    margin-bottom: 12px;
+    line-height: 1em;
+}
+.sell_info p{
+    display: inline-block;
+    width:305px;
+    word-break: break-all;
+    font-size:16px;
+    color:#9b9b9b;
+    height:60px;
+}
+.sell_price{
+    margin-bottom: 20px;
+    margin-top: 54px;
+}
+.sell_price span{
+    font-size:29px;
+    color: #f05f50;
+    font-family: Arial;
+
+}
+.sell_price em{
+    border:1px solid #f2be40;
+    color: #f2be40;
+    line-height:20px;
+    font-size:13px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 4px;
+    position: relative;
+    top:-4px;
+    margin-right: -4px;
+    transform: scale(.8);
+}
+.sell_button button{
+    width: 140px;
+    border-radius: 5px;
+    font-size:16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #f05f50;
+    color: #fff;
+    border: none;
+}
+
+.marketgroup{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+
+}
+.group_title{
+    clear: both;
+
+    margin-bottom: 30px;
+    line-height: 34px;
+
+}
+.group_title span{
+    float: right;
+    color: #9b9b9b;
+    font-size:15px;
+
+}
+.group_title h4{
+    float: left;
+    font-size:24px;
+    color: #46a68f;
+    font-weight: normal;
+}
+.marketgroup ul{
+    position: relative;
+    top:15px;
+
+}
+.marketgroup ul li{
+    height: 20px;
+    display: list-item;
+    line-height:30px;
+    padding:10px 10px 10px 60px;
+    position: relative;
+    border-bottom: 1px solid hsla(0,0%,89%,.6);
+    clear: both;
+    margin-bottom: 10px;
+}
+.group_one{
+    float: right;
+    font-size:16px;
+    color: #9b9b9b;
+
+}
+.group_two{
+    display: block;
+    height: 20px;
+    line-height:20px;
+    min-width: 20px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #fff;
+    background-color: #e4e4e4;
+    border-radius: 3px;
+    position: absolute;
+    left:10px;
+    top:13px;
+}
+.group_two:after{
+    content: '';
+    position: absolute;
+    border:5px solid transparent;
+    border-left: 5px solid #e4e4e4;
+    bottom: -5px;
+    left:5px;
+}
+.marketgroup ul li a{
+    font-size:16px;
+    color: #4a4a4a;
+    float: left;
+}
+
+.active{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.active_title h4{
+    float: left;
+    font-size:24px;
+    color: #46a68f;
+    font-weight: normal;
+
+}
+
+.active_main ul li{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border:1px solid #e4e4e4;
+    float: left;
+    width: 313px;
+
+    margin-right: 18px;
+}
+.active_main{
+    clear: left;
+}
+.active_info{
+    height: 100px;
+    padding: 25px;
+    background-color: #fff;
+}
+.info_main{
+    box-sizing: border-box;
+    font-size:15px;
+    color:#9b9b9b;
+}
+.info_title{
+    font-size:20px;
+    color: #4a4a4a;
+}
+.info_footer{
+    height: 30px;
+    clear: both;
+    position: relative;
+    padding: 30px 0;
+    background: #fff;
+    text-align: center;
+
+}
+.info_footer ul li{
+    position: relative;
+    top:50%;
+    left:32%;
+    float: left;
+    color: #9b9b9b;
+    font-size:15px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.footer{
+    clear: both;
+    width: 100%;
+    background-color: #f7f7f7;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 30px;
+    padding-bottom: 25px;
+
+}
+.footer_wrapper{
+    width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+    clear: both;
+    color: #bdbdbd;
+    position: relative;
+}
+.footer_info{
+    text-align: left;
+    margin-left: 280px;
+}
+.footer_info ul li{
+    margin-bottom: 5px;
+}
+
